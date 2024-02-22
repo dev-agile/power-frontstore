@@ -62,3 +62,4 @@ coverage/
 
 # Optional: Exclude the public folder if it contains user-uploaded content or other data that doesn't need version control
 # public/
+!/.next/
