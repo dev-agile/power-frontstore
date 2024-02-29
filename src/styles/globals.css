@@ -49,6 +49,20 @@
   }
 }
 
+@font-face {
+  font-family: 'Santoshi';
+  src: url('../../public/assets/fonts/Satoshi-Variable.ttf') format('truetype');
+}
+
+body{
+  font-family: Santoshi;
+}
+
+.no-ligatures {
+  font-feature-settings: 'clig' off, 'liga' off;
+}
+
+
 @layer components {
   .content-container {
     @apply max-w-[1440px] w-full mx-auto px-6;
@@ -109,4 +123,9 @@
   .text-3xl-semi {
     @apply text-[32px] leading-[44px] font-semibold;
   }
+}
+
+
+.bg-nasa {
+  background-image: url('/public/assets/icons/nasa.svg');
 }

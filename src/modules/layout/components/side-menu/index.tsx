@@ -5,8 +5,10 @@ import { ArrowRightMini, XMark } from "@medusajs/icons"
 import { Region } from "@medusajs/medusa"
 import { Text, clx, useToggleState } from "@medusajs/ui"
 import { Fragment } from "react"
+import Hamburger from '../../../../../public/assets/icons/hamburger.svg'
 
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
+import Image from "next/image"
 import CountrySelect from "../country-select"
 
 const SideMenuItems = {
@@ -28,7 +30,7 @@ const SideMenu = ({ regions }: { regions: Region[] | null }) => {
             <>
               <div className="relative flex h-full">
                 <Popover.Button className="relative h-full flex items-center transition-all ease-out duration-200 focus:outline-none hover:text-ui-fg-base">
-                  Menu
+                  <Image src={Hamburger}  alt="Hamburger"/>
                 </Popover.Button>
               </div>
 

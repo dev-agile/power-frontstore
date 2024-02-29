@@ -64,7 +64,6 @@ const AccountInfo = ({
         </div>
       </div>
 
-      {/* Success state */}
       <Disclosure>
         <Disclosure.Panel
           static
