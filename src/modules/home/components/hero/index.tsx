@@ -10,22 +10,33 @@ import Truck from "@modules/common/icons/truck"
 import Bolt from "@modules/common/icons/bolt"
 import Doller from "@modules/common/icons/currency-dollar"
 import CheckBadge from "@modules/common/icons/check-badge"
+import React from "react"
 
 type BannerItemProps = {
   children: React.ReactNode
 }
 
-const icoin = [
-  <Truck color="#0A1F33" />,
-  <Doller color="#0A1F33" />,
-  <CheckBadge color="#0A1F33" />,
-  <Bolt color="#0A1F33" />,
-]
 const offers = [
-  { icon: "TruckIcon", description: "Free Shipping over $200" },
-  { icon: "CurrencyIcon", description: "30 day money back" },
-  { icon: "BoltIcon", description: "Third party tested" },
-  { icon: "ThumpsUpIcon", description: "Same Day Shipping" },
+  {
+    icon: "TruckIcon",
+    description: "Free Shipping over $200",
+    descriptionIcon: <Truck color="#0A1F33" />,
+  },
+  {
+    icon: "CurrencyIcon",
+    description: "30 day money back",
+    descriptionIcon: <Truck color="#0A1F33" />,
+  },
+  {
+    icon: "BoltIcon",
+    description: "Third party tested",
+    descriptionIcon: <Truck color="#0A1F33" />,
+  },
+  {
+    icon: "ThumpsUpIcon",
+    description: "Same Day Shipping",
+    descriptionIcon: <Truck color="#0A1F33" />,
+  },
 ]
 const BannerItem: React.FC<BannerItemProps> = ({ children }) => (
   <Typography>{children}</Typography>
@@ -52,14 +63,12 @@ const Hero = () => {
                 Buy Highly Purified Melanotan II, CJC-1295, GHRP-2, Hexarelin,
                 IGF-1, Sermorelin, TB-500 and more!
               </Typography>
-            
             </div>
             <div>
-            <Button className="bg-green-500 text-white  bg-green rounded-xl font-satoshi">
-              Buy Peptides
-            </Button>
+              <Button className="bg-green-500 text-white  bg-green rounded-xl font-satoshi">
+                Buy Peptides
+              </Button>
             </div>
-           
           </div>
           <div className="mt-10 lg:mt-0">
             <Image src={MedicineDetails} alt="MedicineDetails" />
@@ -70,7 +79,7 @@ const Hero = () => {
             {offers.map((offer, index) => (
               <div key={offer.description} className="flex flex-wrap ">
                 <div className="flex gap-2 items-center font-medium text-lg  font-satoshi">
-                  {icoin[index]}
+                  {offer.descriptionIcon}
                   <BannerItem>{offer.description}</BannerItem>
                 </div>
               </div>

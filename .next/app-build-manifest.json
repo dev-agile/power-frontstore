@@ -26,31 +26,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
-    ],
-    "/[countryCode]/(main)/cart/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[countryCode]/(main)/cart/page.js"
-    ],
-    "/[countryCode]/(main)/cart/loading": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[countryCode]/(main)/cart/loading.js"
-    ],
-    "/[countryCode]/(main)/cart/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[countryCode]/(main)/cart/not-found.js"
-    ],
-    "/[countryCode]/(main)/store/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[countryCode]/(main)/store/page.js"
-    ],
-    "/[countryCode]/(main)/products/[handle]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[countryCode]/(main)/products/[handle]/page.js"
     ]
   }
 }
