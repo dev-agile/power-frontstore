@@ -9,7 +9,7 @@ type ParagraphContent = {
 
 const RenownedLeader: React.FC = () => {
   const renderParagraph = ({ title, content }: ParagraphContent) => (
-    <div className="flex flex-col gap-4">
+    <div className="flex flex-col gap-2">
       <p className="font-satoshi text-lg font-bold leading-7 text-black">
         {title}
       </p>
@@ -31,8 +31,8 @@ const RenownedLeader: React.FC = () => {
         </div>
       </div>
 
-      <div className="small:w-3/5 w-full flex flex-col gap-12">
-        <div className="flex flex-col gap-4">
+      <div className="small:w-3/5 w-full flex flex-col gap-4 small:gap-12">
+        <div className="flex flex-col gap-4 small:mt-0 mt-6">
           <h2 className="font-satoshi text-36px font-bold leading-[1.2] text-black">
             Renowned leader in the field of research peptides
           </h2>
@@ -43,7 +43,7 @@ const RenownedLeader: React.FC = () => {
             United States.
           </p>
         </div>
-        <div className="flex flex-col gap-7">
+        <div className="flex flex-col gap-6">
           {renderParagraph({
             title: "Global Standards, Local Manufacturing",
             content:

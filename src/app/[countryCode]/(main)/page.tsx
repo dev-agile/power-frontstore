@@ -68,7 +68,7 @@ export default async function Home({
   }
 
   return (
-    <div className="flex flex-col xsmall:gap-[120px]">
+    <div className="flex flex-col xsmall:gap-[120px] gap-[64px]">
       <Hero />
       {/* <div>
         <ul className="flex flex-col gap-x-6">

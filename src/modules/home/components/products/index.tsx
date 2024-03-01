@@ -1,3 +1,4 @@
+'use client'
 import { getProductsListWithSort } from "@lib/data"
 import ProductPreview from "./productPreview"
 import { Text } from "@medusajs/ui"

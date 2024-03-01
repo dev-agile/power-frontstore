@@ -10,12 +10,12 @@ import { Button } from "@nextui-org/react"
 
 export default function Question() {
   return (
-    <div className="flex small:gap-[120px] flex-col">
+    <div className="flex small:gap-[120px] gap-[64px] flex-col">
       <PaginatedProducts title="Best Sellers" />
       <PaginatedProducts title="New Arrivals" />
       <WhyPowerPertides />
-      <div className="p-3 xsmall:pl-[86px] xsmall:pr-[86px] xsmall:flex-nowrap flex flex-wrap gap-16 ">
-        <div className="flex flex-col gap-12 xsmall:w-30 w-full">
+      <div className="p-3 xsmall:pl-[86px] xsmall:pr-[86px] xsmall:flex-nowrap flex flex-wrap xsmall:gap-16 gap-4">
+        <div className="flex flex-col xsmall:gap-12 xsmall:w-30 w-full gap-4">
           <div className="flex flex-col gap-4">
             <Typography className="text-4xl font-satoshi font-bold leading-10">
               FAQ

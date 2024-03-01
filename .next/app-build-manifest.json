@@ -1,20 +1,10 @@
 {
   "pages": {
-    "/[countryCode]/(main)/store/page": [
+    "/[countryCode]/(main)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[countryCode]/(main)/store/page.js"
-    ],
-    "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
-    ],
-    "/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/css/app/[countryCode]/(main)/page.css",
+      "static/chunks/app/[countryCode]/(main)/page.js"
     ],
     "/[countryCode]/(main)/layout": [
       "static/chunks/webpack.js",
@@ -26,15 +16,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[countryCode]/(main)/not-found.js"
     ],
-    "/[countryCode]/(main)/products/[handle]/page": [
+    "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[countryCode]/(main)/products/[handle]/page.js"
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
-    "/[countryCode]/(main)/page": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[countryCode]/(main)/page.js"
+      "static/chunks/app/not-found.js"
     ],
     "/[countryCode]/(main)/cart/page": [
       "static/chunks/webpack.js",
@@ -50,6 +41,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[countryCode]/(main)/cart/not-found.js"
+    ],
+    "/[countryCode]/(main)/store/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[countryCode]/(main)/store/page.js"
+    ],
+    "/[countryCode]/(main)/products/[handle]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[countryCode]/(main)/products/[handle]/page.js"
     ]
   }
 }

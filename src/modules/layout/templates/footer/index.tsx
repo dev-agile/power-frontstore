@@ -90,7 +90,7 @@ export default async function Footer() {
             </div>
           </div>
           <div className="flex gap-8 flex-wrap small:flex-nowrap xsmall:justify-center flex-1 xsmall:mr-20 ">
-            <div className="flex justify-between gap-7">
+            <div className="flex justify-between gap-10">
               <div className="flex gap-4 flex-col w-1/2 xsmall:w-40 ">
                 <p className="text-white font-satoshi text-lg font-bold leading-7">
                   Information
@@ -118,7 +118,7 @@ export default async function Footer() {
                 ))}
               </div>
             </div>
-            <div className=" flex justify-between gap-7">
+            <div className=" flex justify-between gap-10">
               <div className="flex gap-4 flex-col w-1/2 xsmall:w-40 ">
                 <p className="text-white font-satoshi text-lg font-bold leading-7">
                   Information

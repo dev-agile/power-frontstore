@@ -48,7 +48,7 @@ export default async function ProductPreview({
                   Add to cart
                 </p>
                 <p className="font-bold font-satoshi leading-6 text-white md:hidden">
-                  Cart
+                  Add
                 </p>
               </div>
             </Button>
