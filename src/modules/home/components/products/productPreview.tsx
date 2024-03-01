@@ -5,11 +5,9 @@ import { Button } from "@nextui-org/react"
 import Cart from "@modules/common/icons/cart"
 import Heart from "@modules/common/icons/heart"
 
-export default async function ProductPreview({
+export default function ProductPreview({
   productPreview,
-}: {
-  productPreview: any
-}) {
+}: any) {
   return (
     <LocalizedClientLink href={"/"} className="group">
       <div>

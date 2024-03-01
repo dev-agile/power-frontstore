@@ -60,7 +60,7 @@ const Item: React.FC<AccordionItemProps> = ({
         <div className="flex flex-col bg-[#FAFBFB] gap-3 rounded-t-lg p-6">
           <div className="flex w-full items-center justify-between">
             <div className="flex items-center gap-4">
-              <Text className="text-ui-fg-subtle text-lg font-satoshi text-black leading-6">{title}</Text>
+              <Text className="text-ui-fg-subtle text-xl font-semibold font-satoshi text-black leading-6">{title}</Text>
             </div>
             {/* @ts-expect-error */}
             <AccordionPrimitive.Trigger>
@@ -81,7 +81,7 @@ const Item: React.FC<AccordionItemProps> = ({
           "radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open radix-state-closed:pointer-events-none px-1"
         )}
       >
-        <div className="inter-base-regular group-radix-state-closed:animate-accordion-close">
+        <div className="font-medium text-lg group-radix-state-closed:animate-accordion-close">
           {description && <Text>{description}</Text>}
           <div className="w-full">{children}</div>
         </div>

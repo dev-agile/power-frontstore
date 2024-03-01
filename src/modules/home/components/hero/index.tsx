@@ -56,10 +56,10 @@ const Hero = () => {
         <div className="flex justify-between flex-wrap xsmall:flex-nowrap gap-12 z-10 lg:pb-8 ">
           <div className="flex flex-col md:gap-16 small:w-1/2 gap-6">
             <div className="flex flex-col md:gap-6 gap-2">
-              <Text className="text-black font-satoshi text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[72px] -tracking-0.18px">
+              <Text className="text-black !font-satoshi text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[72px] -tracking-0.18px">
                 USA Made Products
               </Text>
-              <Typography className="w-full sm:w-3/4 text-xl font-medium leading-[150%] font-satoshi">
+              <Typography className="w-full sm:w-3/4 text-xl font-medium leading-[150%] !font-satoshi">
                 Buy Highly Purified Melanotan II, CJC-1295, GHRP-2, Hexarelin,
                 IGF-1, Sermorelin, TB-500 and more!
               </Typography>
@@ -81,7 +81,7 @@ const Hero = () => {
                 <div className="flex gap-2 items-center font-medium text-lg  font-satoshi">
                   {offer.descriptionIcon}
                   <BannerItem>{offer.description}</BannerItem>
-                </div>
+                              </div>
               </div>
             ))}
           </div>

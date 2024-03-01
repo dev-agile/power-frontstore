@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import { getProductsListWithSort } from "@lib/data"
 import ProductPreview from "./productPreview"
 import { Text } from "@medusajs/ui"
@@ -8,7 +8,7 @@ type Product = {
   title: string
 }
 
-export default async function PaginatedProducts({ title }: Product) {
+export default function PaginatedProducts({ title }: Product) {
   const products = [
     {
       id: 1,
@@ -84,18 +84,18 @@ export default async function PaginatedProducts({ title }: Product) {
     },
   ]
   return (
-    <div className="p-3 xsmall:pl-[86px] xsmall:pr-[86px] xsmall:flex-nowrap flex flex-col flex-wrap gap-12">
+    <div className="p-3 xsmall:pl-[86px] xsmall:pr-[86px] xsmall:flex-nowrap font-satoshi flex flex-col flex-wrap gap-12">
       <div className="flex gap-6 items-center">
         <Text className="text-black text-4xl font-bold leading-[43.3px] tracking-tight font-satoshi tarcking-[-0.18px]">
           {title}
         </Text>
 
         <Button className="hidden sm:flex bg-white text-black border-black border-[1px] px-6 py-[10px] rounded-[10px] font-bold text-base font-satoshi">
-    View All
-  </Button>
+          View All
+        </Button>
       </div>
       <ul className="grid grid-cols-2 w-full small:grid-cols-3 medium:grid-cols-4 gap-y-10 gap-x-4">
-        {products.map((p) => {
+        {products?.map((p) => {
           return (
             <li key={p.id}>
               <ProductPreview productPreview={p} />
@@ -104,8 +104,8 @@ export default async function PaginatedProducts({ title }: Product) {
         })}
       </ul>
       <Button className="sm:hidden bg-white text-black border-black border-[1px] px-6 py-[10px] font-bold text-base font-satoshi rounded-[10px]">
-    View All
-</Button>
+        View All
+      </Button>
     </div>
   )
 }

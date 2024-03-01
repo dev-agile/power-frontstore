@@ -27,7 +27,7 @@ const ProductTabs = () => {
           title={tab.label}
           headingSize="medium"
           value={tab.label}
-        >
+                  >
           {tab.component}
         </Accordion.Item>
       ))}

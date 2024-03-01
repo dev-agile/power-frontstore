@@ -13,22 +13,22 @@ export const metadata: Metadata = {
 const satoshi = localFont({
   src: [
     {
-      path: '../../public/assets/fonts/Satoshi-variable.ttf',
+      path: '../../public/assets/fonts/satoshi-variable.ttf',
       weight: "500",
       style: "normal",
     },
     {
-      path: "../../public/assets/fonts/Satoshi-variable.ttf",
+      path: "../../public/assets/fonts/satoshi-variable.ttf",
       weight: "600",
       style: "normal",
     },
     {
-      path: "../../public/assets/fonts/Satoshi-variable.ttf",
+      path: "../../public/assets/fonts/satoshi-variable.ttf",
       weight: "700",
       style: "normal",
     },
     {
-      path: "../../public/assets/fonts/Satoshi-variable.ttf",
+      path: "../../public/assets/fonts/satoshi-variable.ttf",
       weight: "400",
       style: "normal",
     },

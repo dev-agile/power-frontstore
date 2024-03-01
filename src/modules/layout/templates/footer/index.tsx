@@ -1,9 +1,6 @@
 import { Text, clx } from "@medusajs/ui"
 
 import { getCategoriesList, getCollectionsList } from "@lib/data"
-
-import LocalizedClientLink from "@modules/common/components/localized-client-link"
-import MedusaCTA from "../../components/medusa-cta"
 import QualityIcon from "../../../../../public/assets/icons/quality.svg"
 import LabTestestIcon from "../../../../../public/assets/icons/lab-tested.svg"
 import Image from "next/image"
@@ -75,14 +72,13 @@ export default async function Footer() {
   return (
     <footer className="bg-[#036] text-white">
       <div className="pt-[96px] pb-[48px] xsmall:pl-[84px] xsmall:pr-[84px] pr-3 pl-3">
-      
         <div className="flex flex-col flex-wrap md:flex-row justify-between mb-12 gap-12  relative">
           <div className="flex gap-6 flex-col text-white font-satoshi text-lg font-bold leading-7">
-            <PowerPeptides/>
-            <p className="text-white font-satoshi text-lg font-bold leading-7">
+            <PowerPeptides />
+            <Text className="text-white font-satoshi text-lg font-bold leading-7">
               Contact us
-            </p>
-            <p>(664) 369-8726</p>
+            </Text>
+            <Text className="font-satoshi">(664) 369-8726</Text>
             <div className="flex gap-5">
               <Image src={FacebookIcon} alt="Facebook icon" />
               <Image src={TwitterIcon} alt="Twitter icon" />
@@ -162,30 +158,30 @@ export default async function Footer() {
           </div>
         </div>
 
-        <div className="border-[#FFFFFF33] border-t-[1px] flex flex-col gap-6 pt-12 pb-12">
-          <p className="text-base font-medium font-satoshi text-gray-300">
+        <div className="border-[#FFFFFF33] border-t-[1px] flex flex-col gap-6 pt-12 pb-12 ">
+          <Text className="text-base font-medium font-satoshi text-[#90a5bc]">
             All products on this site are for Research, Development use only.
             Products are Not for Human consumption of any kind. The statements
             made within this website have not been evaluated by the US Food and
             Drug Administration. The statements and the products of this company
             are not intended to diagnose, treat, cure or prevent any disease.{" "}
-          </p>
-          <p className="text-base font-medium font-satoshi text-gray-300">
+          </Text>
+          <Text className="text-base font-medium font-satoshi text-[#90a5bc]">
             I understand the statements on this site regarding Powerpeptides
             products have not been evaluated by the Food and Drug
             Administration. These products are not intended to diagnose, treat,
-            cure or prevent any disease. Results from products may vary. The
-            2018 Farm Bill was signed into law in December 2018, effectively
-            legalizing hemp at the federal level by removing it from the federal
-            list of controlled substances and classifying it as an agricultural
-            commodity.
-          </p>
+            cure or prevent any disease. Results from products may vary.
+            <br /> The 2018 Farm Bill was signed into law in December 2018,
+            effectively legalizing hemp at the federal level by removing it from
+            the federal list of controlled substances and classifying it as an
+            agricultural commodity.
+          </Text>
         </div>
 
         <div className="border-[#FFFFFF33] border-t-[1px] flex justify-between flex-wrap pt-6 gap-2 xsmall:flex-row flex-col-reverse">
-          <p className="text-base font-medium font-satoshi text-white">
-            2024 Powerpeptides. All Rights Reserved
-          </p>
+          <Text className="text-base font-medium font-satoshi text-white">
+            2024, Powerpeptides. All Rights Reserved
+          </Text>
           <div className="flex gap-1 flex-wrap">
             {paymentIcons.map((icon) => (
               <Icon key={icon} name={icon} alt={icon} />
