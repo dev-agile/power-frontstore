@@ -117,9 +117,9 @@ export default async function Footer() {
             <div className=" flex justify-between gap-10">
               <div className="flex gap-4 flex-col w-1/2 xsmall:w-40 ">
                 <p className="text-white font-satoshi text-lg font-bold leading-7">
-                  Information
+                Company
                 </p>
-                {informationItems.map((item) => (
+                {companyInfo.map((item) => (
                   <p
                     key={item}
                     className="text-white font-satoshi text-base font-medium leading-6 no-ligatures"
@@ -130,9 +130,9 @@ export default async function Footer() {
               </div>
               <div className="flex gap-4 flex-col w-1/2 xsmall:w-40 ">
                 <p className="text-white font-satoshi text-lg font-bold leading-7">
-                  Support
+                Policies
                 </p>
-                {supportItems.map((item) => (
+                {policies.map((item) => (
                   <p
                     key={item}
                     className="text-white font-satoshi text-base font-medium leading-6 no-ligatures"

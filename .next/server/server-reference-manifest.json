@@ -1,29 +1,5 @@
 {
   "node": {
-    "7fc97e7871dc164f875d37831182c3882fadf305": {
-      "workers": {
-        "app/[countryCode]/(main)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpriyankanayak%2FDesktop%2Fpower-frontstore%2Fsrc%2Flib%2Fdata%2Findex.ts%22%2C%5B%22getProductsById%22%2C%22addShippingAddress%22%2C%22listShippingMethods%22%2C%22getCustomer%22%2C%22removeItem%22%2C%22getProductByHandle%22%2C%22updateItem%22%2C%22updateCustomer%22%2C%22getProductsByCollectionHandle%22%2C%22getToken%22%2C%22getSession%22%2C%22getProductsByCategoryHandle%22%2C%22listCategories%22%2C%22getCategoryByHandle%22%2C%22createCustomer%22%2C%22addItem%22%2C%22retrieveOrder%22%2C%22getCollectionByHandle%22%2C%22setPaymentSession%22%2C%22deleteDiscount%22%2C%22addShippingMethod%22%2C%22getHomepageProducts%22%2C%22getProductsList%22%2C%22updateShippingAddress%22%2C%22createPaymentSessions%22%2C%22listCustomerOrders%22%2C%22retrieveCollection%22%2C%22getCategoriesList%22%2C%22retrieveRegion%22%2C%22retrievePricedProductById%22%2C%22createCart%22%2C%22authenticate%22%2C%22getProductsListWithSort%22%2C%22updateCart%22%2C%22getCollectionsList%22%2C%22listRegions%22%2C%22deleteShippingAddress%22%2C%22completeCart%22%2C%22getCart%22%5D%5D%2C%5B%22%2FUsers%2Fpriyankanayak%2FDesktop%2Fpower-frontstore%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22updateRegion%22%2C%22getRegion%22%2C%22resetOnboardingState%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
-      }
-    },
-    "80679bf35b2c2e47e630937b90ce8a0fba7075c2": {
-      "workers": {
-        "app/[countryCode]/(main)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpriyankanayak%2FDesktop%2Fpower-frontstore%2Fsrc%2Flib%2Fdata%2Findex.ts%22%2C%5B%22getProductsById%22%2C%22addShippingAddress%22%2C%22listShippingMethods%22%2C%22getCustomer%22%2C%22removeItem%22%2C%22getProductByHandle%22%2C%22updateItem%22%2C%22updateCustomer%22%2C%22getProductsByCollectionHandle%22%2C%22getToken%22%2C%22getSession%22%2C%22getProductsByCategoryHandle%22%2C%22listCategories%22%2C%22getCategoryByHandle%22%2C%22createCustomer%22%2C%22addItem%22%2C%22retrieveOrder%22%2C%22getCollectionByHandle%22%2C%22setPaymentSession%22%2C%22deleteDiscount%22%2C%22addShippingMethod%22%2C%22getHomepageProducts%22%2C%22getProductsList%22%2C%22updateShippingAddress%22%2C%22createPaymentSessions%22%2C%22listCustomerOrders%22%2C%22retrieveCollection%22%2C%22getCategoriesList%22%2C%22retrieveRegion%22%2C%22retrievePricedProductById%22%2C%22createCart%22%2C%22authenticate%22%2C%22getProductsListWithSort%22%2C%22updateCart%22%2C%22getCollectionsList%22%2C%22listRegions%22%2C%22deleteShippingAddress%22%2C%22completeCart%22%2C%22getCart%22%5D%5D%2C%5B%22%2FUsers%2Fpriyankanayak%2FDesktop%2Fpower-frontstore%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22updateRegion%22%2C%22getRegion%22%2C%22resetOnboardingState%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
-      }
-    },
-    "a0e1a7c57f9eb7d85220e2cd95519ea8d1ec7f32": {
-      "workers": {
-        "app/[countryCode]/(main)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpriyankanayak%2FDesktop%2Fpower-frontstore%2Fsrc%2Flib%2Fdata%2Findex.ts%22%2C%5B%22getProductsById%22%2C%22addShippingAddress%22%2C%22listShippingMethods%22%2C%22getCustomer%22%2C%22removeItem%22%2C%22getProductByHandle%22%2C%22updateItem%22%2C%22updateCustomer%22%2C%22getProductsByCollectionHandle%22%2C%22getToken%22%2C%22getSession%22%2C%22getProductsByCategoryHandle%22%2C%22listCategories%22%2C%22getCategoryByHandle%22%2C%22createCustomer%22%2C%22addItem%22%2C%22retrieveOrder%22%2C%22getCollectionByHandle%22%2C%22setPaymentSession%22%2C%22deleteDiscount%22%2C%22addShippingMethod%22%2C%22getHomepageProducts%22%2C%22getProductsList%22%2C%22updateShippingAddress%22%2C%22createPaymentSessions%22%2C%22listCustomerOrders%22%2C%22retrieveCollection%22%2C%22getCategoriesList%22%2C%22retrieveRegion%22%2C%22retrievePricedProductById%22%2C%22createCart%22%2C%22authenticate%22%2C%22getProductsListWithSort%22%2C%22updateCart%22%2C%22getCollectionsList%22%2C%22listRegions%22%2C%22deleteShippingAddress%22%2C%22completeCart%22%2C%22getCart%22%5D%5D%2C%5B%22%2FUsers%2Fpriyankanayak%2FDesktop%2Fpower-frontstore%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22updateRegion%22%2C%22getRegion%22%2C%22resetOnboardingState%22%5D%5D%5D&__client_imported__=!"
-      },
-      "layer": {
-        "app/[countryCode]/(main)/page": "rsc"
-      }
-    },
     "0936c97ffdbf3a8935d03a06918bf29722bb98b2": {
       "workers": {
         "app/[countryCode]/(main)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpriyankanayak%2FDesktop%2Fpower-frontstore%2Fsrc%2Flib%2Fdata%2Findex.ts%22%2C%5B%22getProductsById%22%2C%22addShippingAddress%22%2C%22listShippingMethods%22%2C%22getCustomer%22%2C%22removeItem%22%2C%22getProductByHandle%22%2C%22updateItem%22%2C%22updateCustomer%22%2C%22getProductsByCollectionHandle%22%2C%22getToken%22%2C%22getSession%22%2C%22getProductsByCategoryHandle%22%2C%22listCategories%22%2C%22getCategoryByHandle%22%2C%22createCustomer%22%2C%22addItem%22%2C%22retrieveOrder%22%2C%22getCollectionByHandle%22%2C%22setPaymentSession%22%2C%22deleteDiscount%22%2C%22addShippingMethod%22%2C%22getHomepageProducts%22%2C%22getProductsList%22%2C%22updateShippingAddress%22%2C%22createPaymentSessions%22%2C%22listCustomerOrders%22%2C%22retrieveCollection%22%2C%22getCategoriesList%22%2C%22retrieveRegion%22%2C%22retrievePricedProductById%22%2C%22createCart%22%2C%22authenticate%22%2C%22getProductsListWithSort%22%2C%22updateCart%22%2C%22getCollectionsList%22%2C%22listRegions%22%2C%22deleteShippingAddress%22%2C%22completeCart%22%2C%22getCart%22%5D%5D%2C%5B%22%2FUsers%2Fpriyankanayak%2FDesktop%2Fpower-frontstore%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22updateRegion%22%2C%22getRegion%22%2C%22resetOnboardingState%22%5D%5D%5D&__client_imported__=!"
@@ -335,8 +311,32 @@
       "layer": {
         "app/[countryCode]/(main)/page": "rsc"
       }
+    },
+    "7fc97e7871dc164f875d37831182c3882fadf305": {
+      "workers": {
+        "app/[countryCode]/(main)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpriyankanayak%2FDesktop%2Fpower-frontstore%2Fsrc%2Flib%2Fdata%2Findex.ts%22%2C%5B%22getProductsById%22%2C%22addShippingAddress%22%2C%22listShippingMethods%22%2C%22getCustomer%22%2C%22removeItem%22%2C%22getProductByHandle%22%2C%22updateItem%22%2C%22updateCustomer%22%2C%22getProductsByCollectionHandle%22%2C%22getToken%22%2C%22getSession%22%2C%22getProductsByCategoryHandle%22%2C%22listCategories%22%2C%22getCategoryByHandle%22%2C%22createCustomer%22%2C%22addItem%22%2C%22retrieveOrder%22%2C%22getCollectionByHandle%22%2C%22setPaymentSession%22%2C%22deleteDiscount%22%2C%22addShippingMethod%22%2C%22getHomepageProducts%22%2C%22getProductsList%22%2C%22updateShippingAddress%22%2C%22createPaymentSessions%22%2C%22listCustomerOrders%22%2C%22retrieveCollection%22%2C%22getCategoriesList%22%2C%22retrieveRegion%22%2C%22retrievePricedProductById%22%2C%22createCart%22%2C%22authenticate%22%2C%22getProductsListWithSort%22%2C%22updateCart%22%2C%22getCollectionsList%22%2C%22listRegions%22%2C%22deleteShippingAddress%22%2C%22completeCart%22%2C%22getCart%22%5D%5D%2C%5B%22%2FUsers%2Fpriyankanayak%2FDesktop%2Fpower-frontstore%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22updateRegion%22%2C%22getRegion%22%2C%22resetOnboardingState%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "80679bf35b2c2e47e630937b90ce8a0fba7075c2": {
+      "workers": {
+        "app/[countryCode]/(main)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpriyankanayak%2FDesktop%2Fpower-frontstore%2Fsrc%2Flib%2Fdata%2Findex.ts%22%2C%5B%22getProductsById%22%2C%22addShippingAddress%22%2C%22listShippingMethods%22%2C%22getCustomer%22%2C%22removeItem%22%2C%22getProductByHandle%22%2C%22updateItem%22%2C%22updateCustomer%22%2C%22getProductsByCollectionHandle%22%2C%22getToken%22%2C%22getSession%22%2C%22getProductsByCategoryHandle%22%2C%22listCategories%22%2C%22getCategoryByHandle%22%2C%22createCustomer%22%2C%22addItem%22%2C%22retrieveOrder%22%2C%22getCollectionByHandle%22%2C%22setPaymentSession%22%2C%22deleteDiscount%22%2C%22addShippingMethod%22%2C%22getHomepageProducts%22%2C%22getProductsList%22%2C%22updateShippingAddress%22%2C%22createPaymentSessions%22%2C%22listCustomerOrders%22%2C%22retrieveCollection%22%2C%22getCategoriesList%22%2C%22retrieveRegion%22%2C%22retrievePricedProductById%22%2C%22createCart%22%2C%22authenticate%22%2C%22getProductsListWithSort%22%2C%22updateCart%22%2C%22getCollectionsList%22%2C%22listRegions%22%2C%22deleteShippingAddress%22%2C%22completeCart%22%2C%22getCart%22%5D%5D%2C%5B%22%2FUsers%2Fpriyankanayak%2FDesktop%2Fpower-frontstore%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22updateRegion%22%2C%22getRegion%22%2C%22resetOnboardingState%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
+    },
+    "a0e1a7c57f9eb7d85220e2cd95519ea8d1ec7f32": {
+      "workers": {
+        "app/[countryCode]/(main)/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Fpriyankanayak%2FDesktop%2Fpower-frontstore%2Fsrc%2Flib%2Fdata%2Findex.ts%22%2C%5B%22getProductsById%22%2C%22addShippingAddress%22%2C%22listShippingMethods%22%2C%22getCustomer%22%2C%22removeItem%22%2C%22getProductByHandle%22%2C%22updateItem%22%2C%22updateCustomer%22%2C%22getProductsByCollectionHandle%22%2C%22getToken%22%2C%22getSession%22%2C%22getProductsByCategoryHandle%22%2C%22listCategories%22%2C%22getCategoryByHandle%22%2C%22createCustomer%22%2C%22addItem%22%2C%22retrieveOrder%22%2C%22getCollectionByHandle%22%2C%22setPaymentSession%22%2C%22deleteDiscount%22%2C%22addShippingMethod%22%2C%22getHomepageProducts%22%2C%22getProductsList%22%2C%22updateShippingAddress%22%2C%22createPaymentSessions%22%2C%22listCustomerOrders%22%2C%22retrieveCollection%22%2C%22getCategoriesList%22%2C%22retrieveRegion%22%2C%22retrievePricedProductById%22%2C%22createCart%22%2C%22authenticate%22%2C%22getProductsListWithSort%22%2C%22updateCart%22%2C%22getCollectionsList%22%2C%22listRegions%22%2C%22deleteShippingAddress%22%2C%22completeCart%22%2C%22getCart%22%5D%5D%2C%5B%22%2FUsers%2Fpriyankanayak%2FDesktop%2Fpower-frontstore%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22updateRegion%22%2C%22getRegion%22%2C%22resetOnboardingState%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[countryCode]/(main)/page": "rsc"
+      }
     }
   },
   "edge": {},
-  "encryptionKey": "+BFIeh+hcaT9hVI4DWep6HOvRZuW/iWBpEXPrrK+8tA="
+  "encryptionKey": "E5qQaT0WU5VAje3O0dqAhyGEC/GIdB11jg2kkdobpno="
 }
