@@ -13,7 +13,7 @@ export default function PaginatedProducts({ title }: Product) {
     {
       id: 1,
       thumbnail:
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-black-front.png",
+        "http://medusa-img.s3.ap-south-1.amazonaws.com/image%2067-1709292697646.png",
 
       title: "YK11 – Powder, 1g",
       subtitle: "Metabolics",
@@ -22,7 +22,7 @@ export default function PaginatedProducts({ title }: Product) {
     {
       id: 2,
       thumbnail:
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-black-front.png",
+        "http://medusa-img.s3.ap-south-1.amazonaws.com/image%2067-1709292697646.png",
 
       title: "YK11 – Powder, 1g",
       subtitle: "Metabolics",
@@ -31,7 +31,7 @@ export default function PaginatedProducts({ title }: Product) {
     {
       id: 3,
       thumbnail:
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-black-front.png",
+        "http://medusa-img.s3.ap-south-1.amazonaws.com/image%2067-1709292697646.png",
 
       title: "YK11 – Powder, 1g",
       subtitle: "Metabolics",
@@ -40,7 +40,7 @@ export default function PaginatedProducts({ title }: Product) {
     {
       id: 4,
       thumbnail:
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-black-front.png",
+        "http://medusa-img.s3.ap-south-1.amazonaws.com/image%2067-1709292697646.png",
 
       title: "YK11 – Powder, 1g",
       subtitle: "Metabolics",
@@ -49,7 +49,7 @@ export default function PaginatedProducts({ title }: Product) {
     {
       id: 5,
       thumbnail:
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-black-front.png",
+        "http://medusa-img.s3.ap-south-1.amazonaws.com/image%2067-1709292697646.png",
 
       title: "YK11 – Powder, 1g",
       subtitle: "Metabolics",
@@ -58,7 +58,7 @@ export default function PaginatedProducts({ title }: Product) {
     {
       id: 6,
       thumbnail:
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-black-front.png",
+        "http://medusa-img.s3.ap-south-1.amazonaws.com/image%2067-1709292697646.png",
 
       title: "YK11 – Powder, 1g",
       subtitle: "Metabolics",
@@ -67,7 +67,7 @@ export default function PaginatedProducts({ title }: Product) {
     {
       id: 7,
       thumbnail:
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-black-front.png",
+        "http://medusa-img.s3.ap-south-1.amazonaws.com/image%2067-1709292697646.png",
 
       title: "YK11 – Powder, 1g",
       subtitle: "Metabolics",
@@ -76,7 +76,7 @@ export default function PaginatedProducts({ title }: Product) {
     {
       id: 8,
       thumbnail:
-        "https://medusa-public-images.s3.eu-west-1.amazonaws.com/tee-black-front.png",
+        "http://medusa-img.s3.ap-south-1.amazonaws.com/image%2067-1709292697646.png",
 
       title: "YK11 – Powder, 1g",
       subtitle: "Metabolics",
