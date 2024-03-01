@@ -1,9 +1,8 @@
 # Next.js build output
-.next/
-out/
+/.next/
+/out/
 
 # Additional explicit entry for clarity
-.next/
 
 # Node modules
 node_modules/
