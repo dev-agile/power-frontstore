@@ -1,19 +1,9 @@
 {
   "pages": {
-    "/[countryCode]/(main)/page": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[countryCode]/(main)/page.js"
-    ],
-    "/[countryCode]/(main)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[countryCode]/(main)/layout.js"
-    ],
-    "/[countryCode]/(main)/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[countryCode]/(main)/not-found.js"
+      "static/chunks/app/not-found.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -21,10 +11,21 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/not-found": [
+    "/[countryCode]/(main)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/chunks/app/[countryCode]/(main)/layout.js"
+    ],
+    "/[countryCode]/(main)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[countryCode]/(main)/page.css",
+      "static/chunks/app/[countryCode]/(main)/page.js"
+    ],
+    "/[countryCode]/(main)/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[countryCode]/(main)/not-found.js"
     ]
   }
 }

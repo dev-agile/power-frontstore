@@ -1,6 +1,7 @@
 import { Text, clx } from "@medusajs/ui"
 import * as AccordionPrimitive from "@radix-ui/react-accordion"
 import React from "react"
+import ChevronDown from "@modules/common/icons/chevron-down"
 
 type AccordionItemProps = AccordionPrimitive.AccordionItemProps & {
   title: string
@@ -49,17 +50,17 @@ const Item: React.FC<AccordionItemProps> = ({
     <AccordionPrimitive.Item
       {...props}
       className={clx(
-        "border-grey-20 group border-t last:mb-0 last:border-b",
-        "py-3",
+        "border-grey-20 group  last:mb-0 ",
+        "pb-3",
         className
       )}
     >
       {/* @ts-expect-error */}
       <AccordionPrimitive.Header className="px-1">
-        <div className="flex flex-col">
+        <div className="flex flex-col bg-[#FAFBFB] gap-3 rounded-t-lg p-6">
           <div className="flex w-full items-center justify-between">
             <div className="flex items-center gap-4">
-              <Text className="text-ui-fg-subtle text-sm">{title}</Text>
+              <Text className="text-ui-fg-subtle text-xl font-semibold font-satoshi text-black leading-6">{title}</Text>
             </div>
             {/* @ts-expect-error */}
             <AccordionPrimitive.Trigger>
@@ -80,7 +81,7 @@ const Item: React.FC<AccordionItemProps> = ({
           "radix-state-closed:animate-accordion-close radix-state-open:animate-accordion-open radix-state-closed:pointer-events-none px-1"
         )}
       >
-        <div className="inter-base-regular group-radix-state-closed:animate-accordion-close">
+        <div className="font-medium text-lg group-radix-state-closed:animate-accordion-close">
           {description && <Text>{description}</Text>}
           <div className="w-full">{children}</div>
         </div>

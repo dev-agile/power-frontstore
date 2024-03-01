@@ -8,29 +8,10 @@ const User: React.FC<IconProps> = ({
   ...attributes
 }) => {
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox="0 0 20 20"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      {...attributes}
-    >
-      <path
-        d="M16.6663 18V16.3333C16.6663 15.4493 16.3152 14.6014 15.69 13.9763C15.0649 13.3512 14.2171 13 13.333 13H6.66634C5.78229 13 4.93444 13.3512 4.30932 13.9763C3.6842 14.6014 3.33301 15.4493 3.33301 16.3333V18"
-        stroke={color}
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M10.0003 9.66667C11.8413 9.66667 13.3337 8.17428 13.3337 6.33333C13.3337 4.49238 11.8413 3 10.0003 3C8.15938 3 6.66699 4.49238 6.66699 6.33333C6.66699 8.17428 8.15938 9.66667 10.0003 9.66667Z"
-        stroke={color}
-        strokeWidth="1.5"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <path d="M15.7489 6C15.7489 8.07107 14.0699 9.75 11.9989 9.75C9.9278 9.75 8.24886 8.07107 8.24886 6C8.24886 3.92893 9.9278 2.25 11.9989 2.25C14.0699 2.25 15.7489 3.92893 15.7489 6Z" stroke="#0A1F33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M4.5 20.1182C4.57031 16.0369 7.90074 12.75 11.9989 12.75C16.0971 12.75 19.4276 16.0371 19.4977 20.1185C17.2149 21.166 14.6753 21.75 11.9992 21.75C9.32286 21.75 6.78296 21.1659 4.5 20.1182Z" stroke="#0A1F33" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
   )
 }
 

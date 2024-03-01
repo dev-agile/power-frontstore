@@ -1,4 +1,4 @@
-// File: /Users/priyankanayak/Desktop/MedusaFrontend/power-frontstore/src/app/[countryCode]/(main)/page.tsx
+// File: /Users/priyankanayak/Desktop/power-frontstore/src/app/[countryCode]/(main)/page.tsx
 import * as entry from '../../../../../src/app/[countryCode]/(main)/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

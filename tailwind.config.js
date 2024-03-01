@@ -1,4 +1,5 @@
 const path = require("path")
+const {nextui} = require("@nextui-org/react");
 
 module.exports = {
   presets: [require("@medusajs/ui-preset")],
@@ -8,9 +9,13 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
     "./src/modules/**/*.{js,ts,jsx,tsx}",
     "./node_modules/@medusajs/ui/dist/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
+      backgroundImage: (theme) => ({
+        nasa: "url('/assets/icons/nasa.svg')",
+      }),
       transitionProperty: {
         width: "width margin",
         height: "height",
@@ -18,6 +23,9 @@ module.exports = {
         display: "display opacity",
         visibility: "visibility",
         padding: "padding-top padding-right padding-bottom padding-left",
+      },
+      width: {
+        30: "30%", // 'w-30': '30%',
       },
       colors: {
         grey: {
@@ -33,7 +41,20 @@ module.exports = {
           80: "#1F2937",
           90: "#111827",
         },
+        black: "#0A1F33",
+        green: "#008080",
+        yellow:'#fcb043',
+         pink:'#ca054d',
       },
+      lineHeight: {
+        "custom-tight": "1",
+        "120%": "1.2",
+      },
+      letterSpacing: {
+        tightest: "-0.02em",
+        "-0.18px": "-0.18px",
+      },
+
       borderRadius: {
         none: "0px",
         soft: "2px",
@@ -45,29 +66,25 @@ module.exports = {
       maxWidth: {
         "8xl": "100rem",
       },
+
       screens: {
-        "2xsmall": "320px",
+        xxxsmall: "210px",
+        xxsmall: "310px",
         xsmall: "512px",
         small: "1024px",
         medium: "1280px",
         large: "1440px",
         xlarge: "1680px",
-        "2xlarge": "1920px",
+        xxlarge: "1920px",
       },
       fontSize: {
         "3xl": "2rem",
+        "7xl": "72px",
+        "36px": "36px",
       },
       fontFamily: {
-        sans: [
-          "Inter",
-          "-apple-system",
-          "BlinkMacSystemFont",
-          "Segoe UI",
-          "Roboto",
-          "Helvetica Neue",
-          "Ubuntu",
-          "sans-serif",
-        ],
+        Inter: ["Inter", "sans-serif"],
+        satoshi: ["var(--font-satoshi)", "sans-serif"],
       },
       keyframes: {
         ring: {
@@ -157,5 +174,8 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-radix")()],
+  plugins: [
+    require("tailwindcss-radix")(),
+    nextui()
+  ],
 }

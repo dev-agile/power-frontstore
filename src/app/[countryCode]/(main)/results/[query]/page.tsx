@@ -10,6 +10,15 @@ export const metadata: Metadata = {
   description: "Explore all of our products.",
 }
 
+type SearchResult = {
+  readonly objectID: string
+  readonly id?: string // Add this if some hits use `id` instead of `objectID`
+  readonly _highlightResult?: {}
+  readonly _snippetResult?: {}
+  readonly _rankingInfo?: any // Adjust the type according to your needs
+  readonly _distinctSeqID?: number
+}
+
 type Params = {
   params: { query: string; countryCode: string }
   searchParams: {
@@ -22,7 +31,7 @@ export default async function SearchResults({ params, searchParams }: Params) {
   const { query } = params
   const { sortBy, page } = searchParams
 
-  const hits = await search(query).then((data) => data)
+  const hits: SearchResult[] = await search(query).then((data) => data)
 
   const ids = hits
     .map((h) => h.objectID || h.id)
