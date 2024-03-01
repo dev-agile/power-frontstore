@@ -25,17 +25,17 @@ const offers = [
   {
     icon: "CurrencyIcon",
     description: "30 day money back",
-    descriptionIcon: <Truck color="#0A1F33" />,
+    descriptionIcon: <Doller color="#0A1F33" />,
   },
   {
     icon: "BoltIcon",
     description: "Third party tested",
-    descriptionIcon: <Truck color="#0A1F33" />,
+    descriptionIcon: <CheckBadge color="#0A1F33" />,
   },
   {
     icon: "ThumpsUpIcon",
     description: "Same Day Shipping",
-    descriptionIcon: <Truck color="#0A1F33" />,
+    descriptionIcon: <Bolt color="#0A1F33" />,
   },
 ]
 const BannerItem: React.FC<BannerItemProps> = ({ children }) => (
