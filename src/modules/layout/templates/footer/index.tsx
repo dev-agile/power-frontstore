@@ -117,7 +117,7 @@ export default async function Footer() {
             <div className=" flex justify-between gap-10">
               <div className="flex gap-4 flex-col w-1/2 xsmall:w-40 ">
                 <p className="text-white font-satoshi text-lg font-bold leading-7">
-                Company
+                  Company
                 </p>
                 {companyInfo.map((item) => (
                   <p
@@ -130,7 +130,7 @@ export default async function Footer() {
               </div>
               <div className="flex gap-4 flex-col w-1/2 xsmall:w-40 ">
                 <p className="text-white font-satoshi text-lg font-bold leading-7">
-                Policies
+                  Policies
                 </p>
                 {policies.map((item) => (
                   <p
@@ -161,10 +161,12 @@ export default async function Footer() {
         <div className="border-[#FFFFFF33] border-t-[1px] flex flex-col gap-6 pt-12 pb-12 ">
           <Text className="text-base font-medium font-satoshi text-[#90a5bc]">
             All products on this site are for Research, Development use only.
-            Products are Not for Human consumption of any kind. The statements
-            made within this website have not been evaluated by the US Food and
-            Drug Administration. The statements and the products of this company
-            are not intended to diagnose, treat, cure or prevent any disease.{" "}
+            Products are Not for Human consumption of any kind.
+            <br />
+            The statements made within this website have not been evaluated by
+            the US Food and Drug Administration. The statements and the products
+            of this company are not intended to diagnose, treat, cure or prevent
+            any disease.{" "}
           </Text>
           <Text className="text-base font-medium font-satoshi text-[#90a5bc]">
             I understand the statements on this site regarding Powerpeptides
