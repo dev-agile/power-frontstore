@@ -92,6 +92,7 @@ const ImageOrPlaceholder = ({ image }: { image?: string }) => {
         objectFit="cover"
         draggable={false}
         quality={50}
+        unoptimized={true}
       />
     </div>
   ) : (
