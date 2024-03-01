@@ -37,12 +37,12 @@ export default function WhyPowerPeptides() {
         Why Power Peptides is the best place to buy the product
       </p>
       {/* Swiper for mobile view */}
-      <div className="sm:hidden   border rounded-lg">
-        <Swiper slidesPerView={1} spaceBetween={10}>
+      <div className="sm:hidden  rounded-lg">
+        <Swiper slidesPerView={1.2} spaceBetween={10} centeredSlides={true} pagination={true} className="mySwiper">
           {cardData.map((card, index) => (
             <SwiperSlide key={index}>
               {/* Card content */}
-              <Card className="border-0 shadow-none">
+              <Card className="border  shadow-none">
                 <CardBody className="border-0">
                   <div className="flex flex-col gap-6">
                     <div className="bg-[#ee843414] p-3 w-11 rounded-xl">
